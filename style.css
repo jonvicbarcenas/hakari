@@ -1,0 +1,163 @@
+/* START OF HEIGHT PROBLEM HUHU IDK I WANT IT RESPONSIVE */
+body{
+  background: rgb(70,13,94);
+  background: linear-gradient(90deg, rgba(70,13,94,1) 0%, rgba(230,243,255,1) 100%); 
+}
+
+.Hakari{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+  right: 7%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.kuntent {
+  width: 614.22px;
+  height: 720px;
+  position: relative
+}
+
+.frame {
+  width: 614.22px;
+  height: 720px;
+  position: absolute;
+  background: #FCFEFF;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px
+}
+
+
+/* END OF HEIGHT PROBLEM STYLING*/
+.contentjud {
+  width: 441.40px;
+  height: 129.80px;
+  left: 89.57px;
+  top: 38px;
+  position: absolute
+}
+
+.contitle {
+  width: 406.71px;
+  height: 27px;
+  left: 34.68px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.box1{
+  width: 436.13px;
+  height: 74.80px;
+  left: -0px;
+  top: 55px;
+  position: absolute;
+}
+
+.box2{
+  width: 436.13px;
+  height: 74.80px;
+  left: -0px;
+  top: 135px;
+  position: absolute;
+}
+
+.box3{
+  width: 436.13px;
+  height: 74.80px;
+  left: -0px;
+  top: 215px;
+  position: absolute;
+}
+
+.box4{
+  width: 436.13px;
+  height: 74.80px;
+  left: -0px;
+  top: 295px;
+  position: absolute;
+}
+
+.Decimals{
+  width: 421.60px;
+  height: 21.09px;
+  left: 2.10px;
+  top: 0px;
+  position: absolute;
+  color: #7C838A;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.decinput{
+  width: 436.13px;
+  height: 45.70px;
+  left: -0px;
+  top: 29.09px;
+  position: absolute
+}
+
+.textInput{
+  position: absolute;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 400;
+  width: 436.13px;
+  height: 45.70px;
+  left: 0px;
+  text-indent: 5%;
+  position: absolute;
+  background: rgba(176, 186, 195, 0.40);
+  border-radius: 20px;
+  border: none;
+}
+
+/* .graybox{
+  width: 436.13px;
+  height: 45.70px;
+  left: 0px;
+  top: 29.09px;
+  position: absolute;
+  background: rgba(176, 186, 195, 0.40);
+  border-radius: 20px;
+} */
+
+.button {
+  top: 385px;
+  left: 50%; 
+  font-size: 15px;
+  font-family: Poppins;
+  transform: translateX(-50%); 
+  position: absolute;
+  width: 155.54px;
+  height: 34px;
+  background: #d42bf6;
+  border-radius: 10px;
+  border: none;
+  transition: box-shadow 0.5s ease;
+}
+
+.button:hover {
+  transition: .3s;
+  border: 2px dashed #3c00ff;
+  background-color: #ebafdc;
+  color: #cf2dcd;
+}
+
+.button:active {
+  background-color: #d291dc;
+}
